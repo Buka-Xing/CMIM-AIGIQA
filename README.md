@@ -305,9 +305,3 @@ If you find this work useful, please cite:
   year      = {2026}
 }
 ```
-
----
-
-## Acknowledgements
-
-This work builds upon [ImageReward](https://github.com/THUDM/ImageReward) (BLIP backbone). We thank the authors for their open-source contributions.

@@ -51,8 +51,8 @@ The following four AIGIQA benchmarks are supported:
 |---------|----------|-----------------|-----------|
 | **AGIQA-1k** | 1,080 | quality | [Zhang et al., 2023](https://ieeexplore.ieee.org/abstract/document/10222021) |
 | **AGIQA-3k** | 2,982 | quality, consistency | [Li et al., 2024](https://ieeexplore.ieee.org/abstract/document/10262331) |
-| **AIGCIQA2023** | 2,400 | quality, authenticity, consistency | [Wang et al., 2023](https://link.springer.com/chapter/10.1007/978-981-99-9119-8_5) |
-| **PKU-AIGIQA** | 2,800 | quality, authenticity, consistency | [Yuan et al., 2025]((https://openaccess.thecvf.com/content/ICCV2025W/VQualA/html/Yuan_PKU-AIGIQA-4K_A_Perceptual_Quality_Assessment_Database_for_Both_Text-to-Image_and_ICCVW_2025_paper.html) |
+| **AIGCIQA2023** | 2,400 | quality, authenticity, consistency | [Wang et al., 2024](https://link.springer.com/chapter/10.1007/978-981-99-9119-8_5) |
+| **PKU-AIGIQA** | 2,400 | quality, authenticity, consistency | [Yuan et al., 2025](https://openaccess.thecvf.com/content/ICCV2025W/VQualA/html/Yuan_PKU-AIGIQA-4K_A_Perceptual_Quality_Assessment_Database_for_Both_Text-to-Image_and_ICCVW_2025_paper.html) |
 
 ### Data Directory Structure
 
@@ -63,39 +63,43 @@ Data/
 ├── AGIQA-1k/
 │   └── Image/          # All AGIQA-1k images (.jpg / .png)
 ├── AGIQA-3k/
-│   └── Image/          # All AGIQA-3k images
+│   └── all/            # All AGIQA-3k images
 ├── AIGCIQA2023/
-│   ├── <subfolder_A>/  # Subfolders as referenced in the CSV
-│   └── <subfolder_B>/
+│   └── Image/          # Subfolders as referenced in the CSV
+│         └── allimg/
 └── PKU-AIGIQA/
     └── Image/          # All PKU-AIGIQA images
 ```
 
-> **Note:** The `Data/` directory is not included in this repository. Please download each dataset from the links above and arrange the images as shown.
+> **Note:** Please download each dataset from the links above and arrange the images as shown.
 
 ### 10-Fold Cross-Validation Splits
 
-Pre-generated 10-fold splits are provided in the `Database/` folder:
+The tested 10-fold splits are provided in the `Database/` folder:
 
 ```
 Database/
 ├── AGIQA-1k/
-│   ├── 0/              # Fold 0 (index starts from 0 for AGIQA-1k)
+│   ├── 1/              # Fold 0 (index starts from 0 for AGIQA-1k)
 │   │   ├── train.csv
 │   │   └── val.csv
-│   └── 1-9/            # Folds 1–9
+│   └── 2-10/           # Folds 1–9
+│   └── full.csv        # The full annotation files for cross-dataset validations.
 ├── AGIQA-3k/
 │   ├── 1/              # Fold 1 (index starts from 1 for other datasets)
 │   │   ├── train.csv
 │   │   └── val.csv
 │   └── 2-10/           # Folds 2–10
+│   └── full.csv        # The full annotation files for cross-dataset validations.
 ├── AIGCIQA2023/
-│   └── 1-10/
+│   ├── 1-10/
+│   └── full.csv        # The full annotation files for cross-dataset validations.
 └── PKU-AIGIQA/
-    └── 1-10/
+    ├── 1-10/
+    └── full.csv        # The full annotation files for cross-dataset validations.
 ```
 
-For cross-dataset experiments (TABLE 2), a `full.csv` is used for each dataset — covering the entire dataset without fold splitting. Place these files directly under each dataset's `Database/` subdirectory (e.g., `Database/AGIQA-3k/full.csv`).
+For cross-dataset experiments (TABLE 2), a `full.csv` is used for each dataset — covering the entire dataset without fold splitting. 
 
 ---
 
@@ -106,7 +110,7 @@ For cross-dataset experiments (TABLE 2), a `full.csv` is used for each dataset �
 Edit the configuration block at the top of `MI-AIGIQA_train.py`:
 
 ```python
-dataset  = 'AGIQA-3k'   # 'AGIQA-1k' | 'AGIQA-3k' | 'AIGCIQA2023' | 'PKU-AIGIQA'
+dataset  = 'AGIQA-3k'    # 'AGIQA-1k' | 'AGIQA-3k' | 'AIGCIQA2023' | 'PKU-AIGIQA'
 mos_type = 'quality'     # 'quality' | 'consis' | 'authn' (authn not available for AGIQA)
 main_lr  = 1e-5          # Learning rate for main model
 mmilb_lr = 5e-6          # Learning rate for MI estimator (Stage 0)
@@ -169,11 +173,11 @@ This trains on the **full** source dataset and evaluates on the **full** target 
 weights_final/MI-AIGIQA_BLIP_Cross_Train{Train_dataset}_Test{Test_dataset}_batch{train_batch}_main-lr{main_lr}_mmilb-lr{mmilb_lr}_{mos_type}/
 ```
 
+Above training scripts report **SRCC** (Spearman Rank Correlation Coefficient) and **PLCC** (Pearson Linear Correlation Coefficient) on the validation split at the end of each fold. The final reported metric is the average across all 10 folds.
+
 ---
 
-## Evaluation
-
-Training scripts report **SRCC** (Spearman Rank Correlation Coefficient) and **PLCC** (Pearson Linear Correlation Coefficient) on the validation split at the end of each fold. The final reported metric is the average across all 10 folds.
+## Official training logs
 
 Official training logs reproducing Table 1 and Table 2 results from the paper are stored in `train_log_official/`:
 
@@ -194,7 +198,7 @@ train_log_official/
 
 ---
 
-## Gaussian Visualization (Supplementary)
+## Gaussian assumption check and visualization (Supplementary)
 
 To reproduce the text-feature Gaussianity analysis (used to justify the MMILB assumption on AGIQA-3k prompts):
 
@@ -235,27 +239,27 @@ This script reports:
 
 ### Table 1 — In-Distribution Performance (10-Fold CV)
 
-| Dataset | Metric | SRCC | PLCC |
+| Dataset | Metric | PLCC | SRCC |
 |---------|--------|------|------|
-| AGIQA-3k | Quality | — | — |
-| AGIQA-3k | Consistency | — | — |
-| AIGCIQA2023 | Quality | — | — |
-| AIGCIQA2023 | Consistency | — | — |
-| PKU-AIGIQA | Quality | — | — |
-| PKU-AIGIQA | Consistency | — | — |
+| AGIQA-3k | Quality | 0.9161 | 0.8755 |
+| AGIQA-3k | Consistency | 0.9181 | 0.8546 |
+| AIGCIQA2023 | Quality | 0.8898 | 0.8679 |
+| AIGCIQA2023 | Consistency | 0.8158 | 0.8263 |
+| PKU-AIGIQA | Quality | 0.8786 | 0.8586 |
+| PKU-AIGIQA | Consistency | 0.8930 | 0.8223 |
 
 ### Table 2 — Cross-Dataset Generalization
 
-| Train → Test | Metric | SRCC | PLCC |
+| Train → Test | Metric | PLCC | SRCC |
 |-------------|--------|------|------|
-| AGIQA-3k → AIGCIQA2023 | Quality | — | — |
-| AGIQA-3k → PKU-AIGIQA | Quality | — | — |
-| AIGCIQA2023 → AGIQA-3k | Quality | — | — |
-| AIGCIQA2023 → PKU-AIGIQA | Quality | — | — |
-| PKU-AIGIQA → AGIQA-3k | Quality | — | — |
-| PKU-AIGIQA → AIGCIQA2023 | Quality | — | — |
+| AGIQA-3k → AIGCIQA2023 | Quality | 0.7743 | 0.7632 |
+| AGIQA-3k → PKU-AIGIQA | Quality | 0.5547 | 0.4855 |
+| AIGCIQA2023 → AGIQA-3k | Quality | 0.7841 | 0.7573 |
+| AIGCIQA2023 → PKU-AIGIQA | Quality | 0.4894 | 0.4853 |
+| PKU-AIGIQA → AGIQA-3k | Quality | 0.7488 | 0.7382 |
+| PKU-AIGIQA → AIGCIQA2023 | Quality | 0.5400 | 0.5436 |
 
-> Full results including consistency and authenticity metrics are available in `train_log_official/`.
+> Full results including consistency metrics are available in `train_log_official/`.
 
 ---
 
@@ -294,10 +298,10 @@ MI-AIGIQA_final/
 If you find this work useful, please cite:
 
 ```bibtex
-@inproceedings{miaigiqa2026,
-  title     = {MI-AIGIQA: Mutual Information-Guided Multimodal AI-Generated Image Quality Assessment},
-  author    = {YOUR_AUTHORS},
-  booktitle = {European Conference on Computer Vision (ECCV)},
+@inproceedings{CMIM-AIGIQA,
+  title     = {Enhancing prompt-image alignment evaluations via cyclic mutual information maximization},
+  author    = {Xingran Liao, Duanyu Feng, Mingliang Zhou, Sam Kwong, Weisi Lin.},
+  booktitle = {European Conference on Computer Vision 2026 (ECCV)},
   year      = {2026}
 }
 ```
@@ -306,4 +310,4 @@ If you find this work useful, please cite:
 
 ## Acknowledgements
 
-This work builds upon [ImageReward](https://github.com/THUDM/ImageReward) (BLIP backbone) and the mutual information estimation framework from [MMIM](https://github.com/declare-lab/MMIM). We thank the authors for their open-source contributions.
+This work builds upon [ImageReward](https://github.com/THUDM/ImageReward) (BLIP backbone). We thank the authors for their open-source contributions.

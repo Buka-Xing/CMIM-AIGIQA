@@ -1,0 +1,1604 @@
+------------------------------log------------------------------
+main_lr:1.000000e-05, mmilb_lr5e-06, num_epoch:10, train_patch:5, val_patch:1
+live:val: srcc:0.7806  plcc0.8719
+
+**********New quality best!**********
+
+...............current quality best, session:1...............
+best quality epoch:0
+
+best quality result:0.8262352419394385, plcc0.8719032627034269, srcc:0.7805672211754503
+
+live:val: srcc:0.7977  plcc0.8838
+
+**********New quality best!**********
+
+...............current quality best, session:1...............
+best quality epoch:1
+
+best quality result:0.840718935557113, plcc0.8837838536992201, srcc:0.7976540174150059
+
+live:val: srcc:0.7980  plcc0.8767
+
+...............current quality best, session:1...............
+best quality epoch:1
+
+best quality result:0.840718935557113, plcc0.8837838536992201, srcc:0.7976540174150059
+
+live:val: srcc:0.7990  plcc0.8829
+
+**********New quality best!**********
+
+...............current quality best, session:1...............
+best quality epoch:3
+
+best quality result:0.8409382159941933, plcc0.882913270688918, srcc:0.7989631612994685
+
+live:val: srcc:0.8118  plcc0.8883
+
+**********New quality best!**********
+
+...............current quality best, session:1...............
+best quality epoch:4
+
+best quality result:0.8500704829334406, plcc0.8882973044473099, srcc:0.8118436614195712
+
+live:val: srcc:0.8108  plcc0.8925
+
+**********New quality best!**********
+
+...............current quality best, session:1...............
+best quality epoch:5
+
+best quality result:0.8516324078282663, plcc0.8924623929203684, srcc:0.8108024227361642
+
+live:val: srcc:0.8320  plcc0.8935
+
+**********New quality best!**********
+
+...............current quality best, session:1...............
+best quality epoch:6
+
+best quality result:0.8627333178614894, plcc0.8934791399180657, srcc:0.8319874958049132
+
+live:val: srcc:0.8246  plcc0.8810
+
+...............current quality best, session:1...............
+best quality epoch:6
+
+best quality result:0.8627333178614894, plcc0.8934791399180657, srcc:0.8319874958049132
+
+live:val: srcc:0.8271  plcc0.8898
+
+...............current quality best, session:1...............
+best quality epoch:6
+
+best quality result:0.8627333178614894, plcc0.8934791399180657, srcc:0.8319874958049132
+
+live:val: srcc:0.8183  plcc0.8878
+
+...............current quality best, session:1...............
+best quality epoch:6
+
+best quality result:0.8627333178614894, plcc0.8934791399180657, srcc:0.8319874958049132
+
+live:val: srcc:0.7530  plcc0.8515
+
+**********New quality best!**********
+
+...............current quality best, session:2...............
+best quality epoch:0
+
+best quality result:0.8022408623235134, plcc0.8514565470370674, srcc:0.7530251776099595
+
+live:val: srcc:0.7916  plcc0.8796
+
+**********New quality best!**********
+
+...............current quality best, session:2...............
+best quality epoch:1
+
+best quality result:0.8355895293963874, plcc0.8796220819801696, srcc:0.7915569768126053
+
+live:val: srcc:0.7861  plcc0.8858
+
+**********New quality best!**********
+
+...............current quality best, session:2...............
+best quality epoch:2
+
+best quality result:0.8359482554543112, plcc0.8858041383013526, srcc:0.7860923726072698
+
+live:val: srcc:0.8030  plcc0.8774
+
+**********New quality best!**********
+
+...............current quality best, session:2...............
+best quality epoch:3
+
+best quality result:0.8401676930438065, plcc0.8773554914010708, srcc:0.8029798946865422
+
+live:val: srcc:0.8261  plcc0.8932
+
+**********New quality best!**********
+
+...............current quality best, session:2...............
+best quality epoch:4
+
+best quality result:0.8596785695113441, plcc0.8932320361906565, srcc:0.8261251028320318
+
+live:val: srcc:0.8176  plcc0.8903
+
+...............current quality best, session:2...............
+best quality epoch:4
+
+best quality result:0.8596785695113441, plcc0.8932320361906565, srcc:0.8261251028320318
+
+live:val: srcc:0.8164  plcc0.8878
+
+...............current quality best, session:2...............
+best quality epoch:4
+
+best quality result:0.8596785695113441, plcc0.8932320361906565, srcc:0.8261251028320318
+
+live:val: srcc:0.8183  plcc0.8866
+
+...............current quality best, session:2...............
+best quality epoch:4
+
+best quality result:0.8596785695113441, plcc0.8932320361906565, srcc:0.8261251028320318
+
+live:val: srcc:0.8118  plcc0.8904
+
+...............current quality best, session:2...............
+best quality epoch:4
+
+best quality result:0.8596785695113441, plcc0.8932320361906565, srcc:0.8261251028320318
+
+live:val: srcc:0.8124  plcc0.8914
+
+...............current quality best, session:2...............
+best quality epoch:4
+
+best quality result:0.8596785695113441, plcc0.8932320361906565, srcc:0.8261251028320318
+
+live:val: srcc:0.7704  plcc0.8719
+
+**********New quality best!**********
+
+...............current quality best, session:3...............
+best quality epoch:0
+
+best quality result:0.8211310794009521, plcc0.8718590591304238, srcc:0.7704030996714805
+
+live:val: srcc:0.8034  plcc0.8850
+
+**********New quality best!**********
+
+...............current quality best, session:3...............
+best quality epoch:1
+
+best quality result:0.8442309766380849, plcc0.8850352786522652, srcc:0.8034266746239045
+
+live:val: srcc:0.8121  plcc0.8780
+
+**********New quality best!**********
+
+...............current quality best, session:3...............
+best quality epoch:2
+
+best quality result:0.8450132985897941, plcc0.877975794800594, srcc:0.8120508023789943
+
+live:val: srcc:0.8007  plcc0.8738
+
+...............current quality best, session:3...............
+best quality epoch:2
+
+best quality result:0.8450132985897941, plcc0.877975794800594, srcc:0.8120508023789943
+
+live:val: srcc:0.8099  plcc0.8817
+
+**********New quality best!**********
+
+...............current quality best, session:3...............
+best quality epoch:4
+
+best quality result:0.8457975660705666, plcc0.8816667921700987, srcc:0.8099283399710345
+
+live:val: srcc:0.8099  plcc0.8855
+
+**********New quality best!**********
+
+...............current quality best, session:3...............
+best quality epoch:5
+
+best quality result:0.8476675665049984, plcc0.885482368564493, srcc:0.8098527644455039
+
+live:val: srcc:0.8012  plcc0.8782
+
+...............current quality best, session:3...............
+best quality epoch:5
+
+best quality result:0.8476675665049984, plcc0.885482368564493, srcc:0.8098527644455039
+
+live:val: srcc:0.8063  plcc0.8822
+
+...............current quality best, session:3...............
+best quality epoch:5
+
+best quality result:0.8476675665049984, plcc0.885482368564493, srcc:0.8098527644455039
+
+live:val: srcc:0.8134  plcc0.8869
+
+**********New quality best!**********
+
+...............current quality best, session:3...............
+best quality epoch:8
+
+best quality result:0.850148985863348, plcc0.8868893055623581, srcc:0.8134086661643377
+
+live:val: srcc:0.8122  plcc0.8821
+
+...............current quality best, session:3...............
+best quality epoch:8
+
+best quality result:0.850148985863348, plcc0.8868893055623581, srcc:0.8134086661643377
+
+live:val: srcc:0.7777  plcc0.8684
+
+**********New quality best!**********
+
+...............current quality best, session:4...............
+best quality epoch:0
+
+best quality result:0.8230523458182828, plcc0.8683771136817029, srcc:0.7777275779548626
+
+live:val: srcc:0.7784  plcc0.8745
+
+**********New quality best!**********
+
+...............current quality best, session:4...............
+best quality epoch:1
+
+best quality result:0.826429280784682, plcc0.874462251433818, srcc:0.778396310135546
+
+live:val: srcc:0.7989  plcc0.8851
+
+**********New quality best!**********
+
+...............current quality best, session:4...............
+best quality epoch:2
+
+best quality result:0.8420087865605836, plcc0.8851198961428154, srcc:0.7988976769783519
+
+live:val: srcc:0.8112  plcc0.8833
+
+**********New quality best!**********
+
+...............current quality best, session:4...............
+best quality epoch:3
+
+best quality result:0.8472613250830259, plcc0.8832787643636681, srcc:0.8112438858023836
+
+live:val: srcc:0.8231  plcc0.8988
+
+**********New quality best!**********
+
+...............current quality best, session:4...............
+best quality epoch:4
+
+best quality result:0.860941834973009, plcc0.8988048630099125, srcc:0.8230788069361056
+
+live:val: srcc:0.8030  plcc0.8873
+
+...............current quality best, session:4...............
+best quality epoch:4
+
+best quality result:0.860941834973009, plcc0.8988048630099125, srcc:0.8230788069361056
+
+live:val: srcc:0.8293  plcc0.8930
+
+**********New quality best!**********
+
+...............current quality best, session:4...............
+best quality epoch:6
+
+best quality result:0.8611839522646824, plcc0.8930335274247417, srcc:0.829334377104623
+
+live:val: srcc:0.8151  plcc0.8878
+
+...............current quality best, session:4...............
+best quality epoch:6
+
+best quality result:0.8611839522646824, plcc0.8930335274247417, srcc:0.829334377104623
+
+live:val: srcc:0.8217  plcc0.8941
+
+...............current quality best, session:4...............
+best quality epoch:6
+
+best quality result:0.8611839522646824, plcc0.8930335274247417, srcc:0.829334377104623
+
+live:val: srcc:0.8160  plcc0.8900
+
+...............current quality best, session:4...............
+best quality epoch:6
+
+best quality result:0.8611839522646824, plcc0.8930335274247417, srcc:0.829334377104623
+
+live:val: srcc:0.7726  plcc0.8575
+
+**********New quality best!**********
+
+...............current quality best, session:5...............
+best quality epoch:0
+
+best quality result:0.8150870665751229, plcc0.8575395209585898, srcc:0.7726346121916561
+
+live:val: srcc:0.7919  plcc0.8729
+
+**********New quality best!**********
+
+...............current quality best, session:5...............
+best quality epoch:1
+
+best quality result:0.8324154230265994, plcc0.8728927906394967, srcc:0.7919380554137021
+
+live:val: srcc:0.7952  plcc0.8772
+
+**********New quality best!**********
+
+...............current quality best, session:5...............
+best quality epoch:2
+
+best quality result:0.8362169189658948, plcc0.8772395244658052, srcc:0.7951943134659843
+
+live:val: srcc:0.8120  plcc0.8741
+
+**********New quality best!**********
+
+...............current quality best, session:5...............
+best quality epoch:3
+
+best quality result:0.8430534906520926, plcc0.874065076546287, srcc:0.8120419047578982
+
+live:val: srcc:0.8135  plcc0.8850
+
+**********New quality best!**********
+
+...............current quality best, session:5...............
+best quality epoch:4
+
+best quality result:0.8492598887443712, plcc0.8850351560223637, srcc:0.8134846214663786
+
+live:val: srcc:0.8123  plcc0.8879
+
+**********New quality best!**********
+
+...............current quality best, session:5...............
+best quality epoch:5
+
+best quality result:0.8500915255993403, plcc0.8878514312172835, srcc:0.8123316199813971
+
+live:val: srcc:0.8099  plcc0.8798
+
+...............current quality best, session:5...............
+best quality epoch:5
+
+best quality result:0.8500915255993403, plcc0.8878514312172835, srcc:0.8123316199813971
+
+live:val: srcc:0.8250  plcc0.8873
+
+**********New quality best!**********
+
+...............current quality best, session:5...............
+best quality epoch:7
+
+best quality result:0.8561747951197067, plcc0.8873411388549578, srcc:0.8250084513844557
+
+live:val: srcc:0.8244  plcc0.8882
+
+**********New quality best!**********
+
+...............current quality best, session:5...............
+best quality epoch:8
+
+best quality result:0.856291118992397, plcc0.8881882649938494, srcc:0.8243939729909444
+
+live:val: srcc:0.8283  plcc0.8885
+
+**********New quality best!**********
+
+...............current quality best, session:5...............
+best quality epoch:9
+
+best quality result:0.8584096055572875, plcc0.8884764304780965, srcc:0.8283427806364785
+
+live:val: srcc:0.7501  plcc0.8401
+
+**********New quality best!**********
+
+...............current quality best, session:6...............
+best quality epoch:0
+
+best quality result:0.7951242541120619, plcc0.8401354026406268, srcc:0.750113105583497
+
+live:val: srcc:0.7768  plcc0.8705
+
+**********New quality best!**********
+
+...............current quality best, session:6...............
+best quality epoch:1
+
+best quality result:0.823612616579853, plcc0.8704655970217806, srcc:0.7767596361379252
+
+live:val: srcc:0.7800  plcc0.8638
+
+...............current quality best, session:6...............
+best quality epoch:1
+
+best quality result:0.823612616579853, plcc0.8704655970217806, srcc:0.7767596361379252
+
+live:val: srcc:0.8028  plcc0.8780
+
+**********New quality best!**********
+
+...............current quality best, session:6...............
+best quality epoch:3
+
+best quality result:0.8403889588741165, plcc0.8779614897224401, srcc:0.8028164280257927
+
+live:val: srcc:0.8166  plcc0.8796
+
+**********New quality best!**********
+
+...............current quality best, session:6...............
+best quality epoch:4
+
+best quality result:0.8480657606178411, plcc0.8795760811615756, srcc:0.8165554400741066
+
+live:val: srcc:0.7986  plcc0.8801
+
+...............current quality best, session:6...............
+best quality epoch:4
+
+best quality result:0.8480657606178411, plcc0.8795760811615756, srcc:0.8165554400741066
+
+live:val: srcc:0.8043  plcc0.8748
+
+...............current quality best, session:6...............
+best quality epoch:4
+
+best quality result:0.8480657606178411, plcc0.8795760811615756, srcc:0.8165554400741066
+
+live:val: srcc:0.7975  plcc0.8730
+
+...............current quality best, session:6...............
+best quality epoch:4
+
+best quality result:0.8480657606178411, plcc0.8795760811615756, srcc:0.8165554400741066
+
+live:val: srcc:0.8196  plcc0.8856
+
+**********New quality best!**********
+
+...............current quality best, session:6...............
+best quality epoch:8
+
+best quality result:0.8526090269339259, plcc0.8855913611557198, srcc:0.8196266927121321
+
+live:val: srcc:0.8178  plcc0.8828
+
+...............current quality best, session:6...............
+best quality epoch:8
+
+best quality result:0.8526090269339259, plcc0.8855913611557198, srcc:0.8196266927121321
+
+live:val: srcc:0.7675  plcc0.8626
+
+**********New quality best!**********
+
+...............current quality best, session:7...............
+best quality epoch:0
+
+best quality result:0.8150469409430774, plcc0.862601389388883, srcc:0.7674924924972717
+
+live:val: srcc:0.7452  plcc0.8594
+
+...............current quality best, session:7...............
+best quality epoch:0
+
+best quality result:0.8150469409430774, plcc0.862601389388883, srcc:0.7674924924972717
+
+live:val: srcc:0.7674  plcc0.8629
+
+**********New quality best!**********
+
+...............current quality best, session:7...............
+best quality epoch:2
+
+best quality result:0.8151714113764058, plcc0.8628938960466391, srcc:0.7674489267061725
+
+live:val: srcc:0.7763  plcc0.8752
+
+**********New quality best!**********
+
+...............current quality best, session:7...............
+best quality epoch:3
+
+best quality result:0.8257839895183976, plcc0.8752330415448533, srcc:0.776334937491942
+
+live:val: srcc:0.7796  plcc0.8697
+
+...............current quality best, session:7...............
+best quality epoch:3
+
+best quality result:0.8257839895183976, plcc0.8752330415448533, srcc:0.776334937491942
+
+live:val: srcc:0.7758  plcc0.8730
+
+...............current quality best, session:7...............
+best quality epoch:3
+
+best quality result:0.8257839895183976, plcc0.8752330415448533, srcc:0.776334937491942
+
+live:val: srcc:0.7892  plcc0.8718
+
+**********New quality best!**********
+
+...............current quality best, session:7...............
+best quality epoch:6
+
+best quality result:0.8305109049028134, plcc0.8717972575573375, srcc:0.7892245522482895
+
+live:val: srcc:0.7931  plcc0.8718
+
+**********New quality best!**********
+
+...............current quality best, session:7...............
+best quality epoch:7
+
+best quality result:0.8324450107192025, plcc0.8718209915773135, srcc:0.7930690298610916
+
+live:val: srcc:0.7901  plcc0.8748
+
+**********New quality best!**********
+
+...............current quality best, session:7...............
+best quality epoch:8
+
+best quality result:0.8324766518311664, plcc0.8748326958651089, srcc:0.7901206077972239
+
+live:val: srcc:0.7947  plcc0.8735
+
+**********New quality best!**********
+
+...............current quality best, session:7...............
+best quality epoch:9
+
+best quality result:0.8340994941238353, plcc0.8734746753399584, srcc:0.7947243129077124
+
+live:val: srcc:0.7779  plcc0.8734
+
+**********New quality best!**********
+
+...............current quality best, session:8...............
+best quality epoch:0
+
+best quality result:0.8256527893972325, plcc0.8734356389020629, srcc:0.7778699398924022
+
+live:val: srcc:0.7716  plcc0.8706
+
+...............current quality best, session:8...............
+best quality epoch:0
+
+best quality result:0.8256527893972325, plcc0.8734356389020629, srcc:0.7778699398924022
+
+live:val: srcc:0.7966  plcc0.8843
+
+**********New quality best!**********
+
+...............current quality best, session:8...............
+best quality epoch:2
+
+best quality result:0.8404615200357997, plcc0.8843097188021286, srcc:0.7966133212694707
+
+live:val: srcc:0.7939  plcc0.8809
+
+...............current quality best, session:8...............
+best quality epoch:2
+
+best quality result:0.8404615200357997, plcc0.8843097188021286, srcc:0.7966133212694707
+
+live:val: srcc:0.7939  plcc0.8868
+
+...............current quality best, session:8...............
+best quality epoch:2
+
+best quality result:0.8404615200357997, plcc0.8843097188021286, srcc:0.7966133212694707
+
+live:val: srcc:0.7920  plcc0.8917
+
+**********New quality best!**********
+
+...............current quality best, session:8...............
+best quality epoch:5
+
+best quality result:0.8418803366933231, plcc0.8917259704925784, srcc:0.7920347028940677
+
+live:val: srcc:0.8048  plcc0.8880
+
+**********New quality best!**********
+
+...............current quality best, session:8...............
+best quality epoch:6
+
+best quality result:0.8464215681779612, plcc0.8880108546139633, srcc:0.8048322817419592
+
+live:val: srcc:0.7840  plcc0.8951
+
+...............current quality best, session:8...............
+best quality epoch:6
+
+best quality result:0.8464215681779612, plcc0.8880108546139633, srcc:0.8048322817419592
+
+live:val: srcc:0.8089  plcc0.8951
+
+**********New quality best!**********
+
+...............current quality best, session:8...............
+best quality epoch:8
+
+best quality result:0.8519728741079341, plcc0.8950520822199927, srcc:0.8088936659958755
+
+live:val: srcc:0.8119  plcc0.8947
+
+**********New quality best!**********
+
+...............current quality best, session:8...............
+best quality epoch:9
+
+best quality result:0.8532786776393738, plcc0.8946536349167769, srcc:0.8119037203619708
+
+live:val: srcc:0.7681  plcc0.8569
+
+**********New quality best!**********
+
+...............current quality best, session:9...............
+best quality epoch:0
+
+best quality result:0.8124837662164897, plcc0.856863274231555, srcc:0.7681042582014243
+
+live:val: srcc:0.8072  plcc0.8804
+
+**********New quality best!**********
+
+...............current quality best, session:9...............
+best quality epoch:1
+
+best quality result:0.8437839578824587, plcc0.8803569852319719, srcc:0.8072109305329456
+
+live:val: srcc:0.8144  plcc0.8628
+
+...............current quality best, session:9...............
+best quality epoch:1
+
+best quality result:0.8437839578824587, plcc0.8803569852319719, srcc:0.8072109305329456
+
+live:val: srcc:0.7945  plcc0.8713
+
+...............current quality best, session:9...............
+best quality epoch:1
+
+best quality result:0.8437839578824587, plcc0.8803569852319719, srcc:0.8072109305329456
+
+live:val: srcc:0.8099  plcc0.8859
+
+**********New quality best!**********
+
+...............current quality best, session:9...............
+best quality epoch:4
+
+best quality result:0.8479136823773323, plcc0.8859057522532394, srcc:0.8099216125014252
+
+live:val: srcc:0.8084  plcc0.8847
+
+...............current quality best, session:9...............
+best quality epoch:4
+
+best quality result:0.8479136823773323, plcc0.8859057522532394, srcc:0.8099216125014252
+
+live:val: srcc:0.8210  plcc0.8832
+
+**********New quality best!**********
+
+...............current quality best, session:9...............
+best quality epoch:6
+
+best quality result:0.85207117962859, plcc0.8831593761195325, srcc:0.8209829831376474
+
+live:val: srcc:0.8162  plcc0.8859
+
+...............current quality best, session:9...............
+best quality epoch:6
+
+best quality result:0.85207117962859, plcc0.8831593761195325, srcc:0.8209829831376474
+
+live:val: srcc:0.8073  plcc0.8788
+
+...............current quality best, session:9...............
+best quality epoch:6
+
+best quality result:0.85207117962859, plcc0.8831593761195325, srcc:0.8209829831376474
+
+live:val: srcc:0.8131  plcc0.8813
+
+...............current quality best, session:9...............
+best quality epoch:6
+
+best quality result:0.85207117962859, plcc0.8831593761195325, srcc:0.8209829831376474
+
+live:val: srcc:0.7689  plcc0.8719
+
+**********New quality best!**********
+
+...............current quality best, session:10...............
+best quality epoch:0
+
+best quality result:0.8204386212929015, plcc0.8719350888952928, srcc:0.7689421536905101
+
+live:val: srcc:0.7761  plcc0.8712
+
+**********New quality best!**********
+
+...............current quality best, session:10...............
+best quality epoch:1
+
+best quality result:0.8236526864639668, plcc0.8712305280916948, srcc:0.7760748448362389
+
+live:val: srcc:0.7827  plcc0.8728
+
+**********New quality best!**********
+
+...............current quality best, session:10...............
+best quality epoch:2
+
+best quality result:0.8277680938851749, plcc0.8727890494263245, srcc:0.7827471383440253
+
+live:val: srcc:0.8176  plcc0.8819
+
+**********New quality best!**********
+
+...............current quality best, session:10...............
+best quality epoch:3
+
+best quality result:0.849717309811092, plcc0.8818554648379269, srcc:0.817579154784257
+
+live:val: srcc:0.8055  plcc0.8828
+
+...............current quality best, session:10...............
+best quality epoch:3
+
+best quality result:0.849717309811092, plcc0.8818554648379269, srcc:0.817579154784257
+
+------------------------------log------------------------------
+main_lr:1.000000e-05, mmilb_lr5e-06, num_epoch:10, train_patch:5, val_patch:1
+------------------------------log------------------------------
+main_lr:1.000000e-05, mmilb_lr5e-06, num_epoch:10, train_patch:5, val_patch:1
+live:val: srcc:0.7806  plcc0.8719
+
+**********New quality best!**********
+
+...............current quality best, session:1...............
+best quality epoch:0
+
+best quality result:0.8262352419394385, plcc0.8719032627034269, srcc:0.7805672211754503
+
+live:val: srcc:0.7977  plcc0.8838
+
+**********New quality best!**********
+
+...............current quality best, session:1...............
+best quality epoch:1
+
+best quality result:0.840718935557113, plcc0.8837838536992201, srcc:0.7976540174150059
+
+live:val: srcc:0.7980  plcc0.8767
+
+...............current quality best, session:1...............
+best quality epoch:1
+
+best quality result:0.840718935557113, plcc0.8837838536992201, srcc:0.7976540174150059
+
+live:val: srcc:0.7990  plcc0.8829
+
+**********New quality best!**********
+
+...............current quality best, session:1...............
+best quality epoch:3
+
+best quality result:0.8409382159941933, plcc0.882913270688918, srcc:0.7989631612994685
+
+live:val: srcc:0.8118  plcc0.8883
+
+**********New quality best!**********
+
+...............current quality best, session:1...............
+best quality epoch:4
+
+best quality result:0.8500704829334406, plcc0.8882973044473099, srcc:0.8118436614195712
+
+live:val: srcc:0.8108  plcc0.8925
+
+**********New quality best!**********
+
+...............current quality best, session:1...............
+best quality epoch:5
+
+best quality result:0.8516324078282663, plcc0.8924623929203684, srcc:0.8108024227361642
+
+live:val: srcc:0.8320  plcc0.8935
+
+**********New quality best!**********
+
+...............current quality best, session:1...............
+best quality epoch:6
+
+best quality result:0.8627333178614894, plcc0.8934791399180657, srcc:0.8319874958049132
+
+live:val: srcc:0.8246  plcc0.8810
+
+...............current quality best, session:1...............
+best quality epoch:6
+
+best quality result:0.8627333178614894, plcc0.8934791399180657, srcc:0.8319874958049132
+
+live:val: srcc:0.8271  plcc0.8898
+
+...............current quality best, session:1...............
+best quality epoch:6
+
+best quality result:0.8627333178614894, plcc0.8934791399180657, srcc:0.8319874958049132
+
+live:val: srcc:0.8183  plcc0.8878
+
+...............current quality best, session:1...............
+best quality epoch:6
+
+best quality result:0.8627333178614894, plcc0.8934791399180657, srcc:0.8319874958049132
+
+live:val: srcc:0.7681  plcc0.8499
+
+**********New quality best!**********
+
+...............current quality best, session:2...............
+best quality epoch:0
+
+best quality result:0.8090174199243129, plcc0.849922823355636, srcc:0.7681120164929898
+
+live:val: srcc:0.8011  plcc0.8826
+
+**********New quality best!**********
+
+...............current quality best, session:2...............
+best quality epoch:1
+
+best quality result:0.8418300245316374, plcc0.8825773550603537, srcc:0.801082694002921
+
+live:val: srcc:0.7797  plcc0.8757
+
+...............current quality best, session:2...............
+best quality epoch:1
+
+best quality result:0.8418300245316374, plcc0.8825773550603537, srcc:0.801082694002921
+
+live:val: srcc:0.8210  plcc0.8876
+
+**********New quality best!**********
+
+...............current quality best, session:2...............
+best quality epoch:3
+
+best quality result:0.8542968769172854, plcc0.8875800630533839, srcc:0.8210136907811868
+
+live:val: srcc:0.8225  plcc0.8927
+
+**********New quality best!**********
+
+...............current quality best, session:2...............
+best quality epoch:4
+
+best quality result:0.8576139878818654, plcc0.8927057041764367, srcc:0.8225222715872942
+
+live:val: srcc:0.8269  plcc0.8951
+
+**********New quality best!**********
+
+...............current quality best, session:2...............
+best quality epoch:5
+
+best quality result:0.861031927009946, plcc0.8951294474446139, srcc:0.8269344065752781
+
+live:val: srcc:0.8250  plcc0.8882
+
+...............current quality best, session:2...............
+best quality epoch:5
+
+best quality result:0.861031927009946, plcc0.8951294474446139, srcc:0.8269344065752781
+
+live:val: srcc:0.8264  plcc0.8923
+
+...............current quality best, session:2...............
+best quality epoch:5
+
+best quality result:0.861031927009946, plcc0.8951294474446139, srcc:0.8269344065752781
+
+live:val: srcc:0.8214  plcc0.8916
+
+...............current quality best, session:2...............
+best quality epoch:5
+
+best quality result:0.861031927009946, plcc0.8951294474446139, srcc:0.8269344065752781
+
+live:val: srcc:0.8259  plcc0.8878
+
+...............current quality best, session:2...............
+best quality epoch:5
+
+best quality result:0.861031927009946, plcc0.8951294474446139, srcc:0.8269344065752781
+
+live:val: srcc:0.7719  plcc0.8426
+
+**********New quality best!**********
+
+...............current quality best, session:3...............
+best quality epoch:0
+
+best quality result:0.8072365739554115, plcc0.8425874549972905, srcc:0.7718856929135324
+
+live:val: srcc:0.7965  plcc0.8819
+
+**********New quality best!**********
+
+...............current quality best, session:3...............
+best quality epoch:1
+
+best quality result:0.8392025138437498, plcc0.8819100339278514, srcc:0.7964949937596483
+
+live:val: srcc:0.8101  plcc0.8927
+
+**********New quality best!**********
+
+...............current quality best, session:3...............
+best quality epoch:2
+
+best quality result:0.8513879539533032, plcc0.8927102516002393, srcc:0.8100656563063672
+
+live:val: srcc:0.8013  plcc0.8827
+
+...............current quality best, session:3...............
+best quality epoch:2
+
+best quality result:0.8513879539533032, plcc0.8927102516002393, srcc:0.8100656563063672
+
+live:val: srcc:0.8141  plcc0.8896
+
+**********New quality best!**********
+
+...............current quality best, session:3...............
+best quality epoch:4
+
+best quality result:0.8518268050320175, plcc0.8895845125484513, srcc:0.8140690975155837
+
+live:val: srcc:0.8049  plcc0.8920
+
+...............current quality best, session:3...............
+best quality epoch:4
+
+best quality result:0.8518268050320175, plcc0.8895845125484513, srcc:0.8140690975155837
+
+live:val: srcc:0.8185  plcc0.8926
+
+**********New quality best!**********
+
+...............current quality best, session:3...............
+best quality epoch:6
+
+best quality result:0.8555504090940944, plcc0.8926363501048575, srcc:0.8184644680833313
+
+live:val: srcc:0.8103  plcc0.8894
+
+...............current quality best, session:3...............
+best quality epoch:6
+
+best quality result:0.8555504090940944, plcc0.8926363501048575, srcc:0.8184644680833313
+
+live:val: srcc:0.8161  plcc0.8961
+
+**********New quality best!**********
+
+...............current quality best, session:3...............
+best quality epoch:8
+
+best quality result:0.8560859523328426, plcc0.8960957425474568, srcc:0.8160761621182283
+
+live:val: srcc:0.8120  plcc0.8849
+
+...............current quality best, session:3...............
+best quality epoch:8
+
+best quality result:0.8560859523328426, plcc0.8960957425474568, srcc:0.8160761621182283
+
+live:val: srcc:0.7534  plcc0.8547
+
+**********New quality best!**********
+
+...............current quality best, session:4...............
+best quality epoch:0
+
+best quality result:0.8040350658429681, plcc0.8547077667887022, srcc:0.7533623648972341
+
+live:val: srcc:0.7783  plcc0.8621
+
+**********New quality best!**********
+
+...............current quality best, session:4...............
+best quality epoch:1
+
+best quality result:0.8202366762743676, plcc0.8621437203176239, srcc:0.7783296322311114
+
+live:val: srcc:0.7982  plcc0.8691
+
+**********New quality best!**********
+
+...............current quality best, session:4...............
+best quality epoch:2
+
+best quality result:0.8336483807213537, plcc0.8691426326175493, srcc:0.7981541288251582
+
+live:val: srcc:0.8020  plcc0.8640
+
+...............current quality best, session:4...............
+best quality epoch:2
+
+best quality result:0.8336483807213537, plcc0.8691426326175493, srcc:0.7981541288251582
+
+live:val: srcc:0.8121  plcc0.8841
+
+**********New quality best!**********
+
+...............current quality best, session:4...............
+best quality epoch:4
+
+best quality result:0.8480867580286122, plcc0.884074699076583, srcc:0.8120988169806416
+
+live:val: srcc:0.8099  plcc0.8906
+
+**********New quality best!**********
+
+...............current quality best, session:4...............
+best quality epoch:5
+
+best quality result:0.8502533969185796, plcc0.890627770558664, srcc:0.8098790232784951
+
+live:val: srcc:0.7987  plcc0.8816
+
+...............current quality best, session:4...............
+best quality epoch:5
+
+best quality result:0.8502533969185796, plcc0.890627770558664, srcc:0.8098790232784951
+
+live:val: srcc:0.8166  plcc0.8904
+
+**********New quality best!**********
+
+...............current quality best, session:4...............
+best quality epoch:7
+
+best quality result:0.85351298985944, plcc0.8904007150206827, srcc:0.8166252646981972
+
+live:val: srcc:0.8172  plcc0.8899
+
+**********New quality best!**********
+
+...............current quality best, session:4...............
+best quality epoch:8
+
+best quality result:0.8535637714649098, plcc0.889928056148193, srcc:0.8171994867816266
+
+live:val: srcc:0.8147  plcc0.8874
+
+...............current quality best, session:4...............
+best quality epoch:8
+
+best quality result:0.8535637714649098, plcc0.889928056148193, srcc:0.8171994867816266
+
+live:val: srcc:0.7766  plcc0.8746
+
+**********New quality best!**********
+
+...............current quality best, session:5...............
+best quality epoch:0
+
+best quality result:0.825634173242517, plcc0.8746305643530972, srcc:0.7766377821319367
+
+live:val: srcc:0.7936  plcc0.8781
+
+**********New quality best!**********
+
+...............current quality best, session:5...............
+best quality epoch:1
+
+best quality result:0.8358455870428446, plcc0.8781151425834743, srcc:0.7935760315022149
+
+live:val: srcc:0.7918  plcc0.8583
+
+...............current quality best, session:5...............
+best quality epoch:1
+
+best quality result:0.8358455870428446, plcc0.8781151425834743, srcc:0.7935760315022149
+
+live:val: srcc:0.8077  plcc0.8754
+
+**********New quality best!**********
+
+...............current quality best, session:5...............
+best quality epoch:3
+
+best quality result:0.8415579726131963, plcc0.875423295317146, srcc:0.8076926499092467
+
+live:val: srcc:0.8245  plcc0.8994
+
+**********New quality best!**********
+
+...............current quality best, session:5...............
+best quality epoch:4
+
+best quality result:0.8619727071805753, plcc0.8994183025764858, srcc:0.8245271117846648
+
+live:val: srcc:0.8154  plcc0.8954
+
+...............current quality best, session:5...............
+best quality epoch:4
+
+best quality result:0.8619727071805753, plcc0.8994183025764858, srcc:0.8245271117846648
+
+live:val: srcc:0.8168  plcc0.8959
+
+...............current quality best, session:5...............
+best quality epoch:4
+
+best quality result:0.8619727071805753, plcc0.8994183025764858, srcc:0.8245271117846648
+
+live:val: srcc:0.8138  plcc0.8901
+
+...............current quality best, session:5...............
+best quality epoch:4
+
+best quality result:0.8619727071805753, plcc0.8994183025764858, srcc:0.8245271117846648
+
+live:val: srcc:0.8244  plcc0.8929
+
+...............current quality best, session:5...............
+best quality epoch:4
+
+best quality result:0.8619727071805753, plcc0.8994183025764858, srcc:0.8245271117846648
+
+live:val: srcc:0.8219  plcc0.8936
+
+...............current quality best, session:5...............
+best quality epoch:4
+
+best quality result:0.8619727071805753, plcc0.8994183025764858, srcc:0.8245271117846648
+
+live:val: srcc:0.7742  plcc0.8611
+
+**********New quality best!**********
+
+...............current quality best, session:6...............
+best quality epoch:0
+
+best quality result:0.8176463653756847, plcc0.861122465113807, srcc:0.7741702656375624
+
+live:val: srcc:0.7832  plcc0.8761
+
+**********New quality best!**********
+
+...............current quality best, session:6...............
+best quality epoch:1
+
+best quality result:0.8296493621108989, plcc0.8761408304550926, srcc:0.7831578937667053
+
+live:val: srcc:0.7967  plcc0.8832
+
+**********New quality best!**********
+
+...............current quality best, session:6...............
+best quality epoch:2
+
+best quality result:0.8399459214282948, plcc0.8832160212242968, srcc:0.7966758216322929
+
+live:val: srcc:0.8000  plcc0.8748
+
+...............current quality best, session:6...............
+best quality epoch:2
+
+best quality result:0.8399459214282948, plcc0.8832160212242968, srcc:0.7966758216322929
+
+live:val: srcc:0.8156  plcc0.8856
+
+**********New quality best!**********
+
+...............current quality best, session:6...............
+best quality epoch:4
+
+best quality result:0.8506030805859552, plcc0.8856201820207821, srcc:0.8155859791511283
+
+live:val: srcc:0.8082  plcc0.8841
+
+...............current quality best, session:6...............
+best quality epoch:4
+
+best quality result:0.8506030805859552, plcc0.8856201820207821, srcc:0.8155859791511283
+
+live:val: srcc:0.7785  plcc0.8693
+
+...............current quality best, session:6...............
+best quality epoch:4
+
+best quality result:0.8506030805859552, plcc0.8856201820207821, srcc:0.8155859791511283
+
+live:val: srcc:0.7968  plcc0.8718
+
+...............current quality best, session:6...............
+best quality epoch:4
+
+best quality result:0.8506030805859552, plcc0.8856201820207821, srcc:0.8155859791511283
+
+live:val: srcc:0.8068  plcc0.8802
+
+...............current quality best, session:6...............
+best quality epoch:4
+
+best quality result:0.8506030805859552, plcc0.8856201820207821, srcc:0.8155859791511283
+
+live:val: srcc:0.8081  plcc0.8768
+
+...............current quality best, session:6...............
+best quality epoch:4
+
+best quality result:0.8506030805859552, plcc0.8856201820207821, srcc:0.8155859791511283
+
+live:val: srcc:0.7686  plcc0.8530
+
+**********New quality best!**********
+
+...............current quality best, session:7...............
+best quality epoch:0
+
+best quality result:0.8108140347959655, plcc0.8529924497989432, srcc:0.7686356197929878
+
+live:val: srcc:0.7767  plcc0.8819
+
+**********New quality best!**********
+
+...............current quality best, session:7...............
+best quality epoch:1
+
+best quality result:0.8293186582675667, plcc0.8819235791011556, srcc:0.7767137374339776
+
+live:val: srcc:0.8142  plcc0.8910
+
+**********New quality best!**********
+
+...............current quality best, session:7...............
+best quality epoch:2
+
+best quality result:0.8526211072229815, plcc0.8909981484667493, srcc:0.8142440659792136
+
+live:val: srcc:0.8242  plcc0.8880
+
+**********New quality best!**********
+
+...............current quality best, session:7...............
+best quality epoch:3
+
+best quality result:0.8561325522328171, plcc0.8880431702338126, srcc:0.8242219342318217
+
+live:val: srcc:0.8081  plcc0.8959
+
+...............current quality best, session:7...............
+best quality epoch:3
+
+best quality result:0.8561325522328171, plcc0.8880431702338126, srcc:0.8242219342318217
+
+live:val: srcc:0.8266  plcc0.8964
+
+**********New quality best!**********
+
+...............current quality best, session:7...............
+best quality epoch:5
+
+best quality result:0.861511815597882, plcc0.8963817610409179, srcc:0.826641870154846
+
+live:val: srcc:0.8091  plcc0.8872
+
+...............current quality best, session:7...............
+best quality epoch:5
+
+best quality result:0.861511815597882, plcc0.8963817610409179, srcc:0.826641870154846
+
+live:val: srcc:0.8277  plcc0.8968
+
+**********New quality best!**********
+
+...............current quality best, session:7...............
+best quality epoch:7
+
+best quality result:0.8622821860369616, plcc0.8968188713804222, srcc:0.827745500693501
+
+live:val: srcc:0.8224  plcc0.8937
+
+...............current quality best, session:7...............
+best quality epoch:7
+
+best quality result:0.8622821860369616, plcc0.8968188713804222, srcc:0.827745500693501
+
+live:val: srcc:0.8291  plcc0.8965
+
+**********New quality best!**********
+
+...............current quality best, session:7...............
+best quality epoch:9
+
+best quality result:0.8628087548513232, plcc0.8965051933489189, srcc:0.8291123163537277
+
+live:val: srcc:0.7850  plcc0.8563
+
+**********New quality best!**********
+
+...............current quality best, session:8...............
+best quality epoch:0
+
+best quality result:0.8206474450896813, plcc0.8563377238148818, srcc:0.7849571663644809
+
+live:val: srcc:0.7806  plcc0.8809
+
+**********New quality best!**********
+
+...............current quality best, session:8...............
+best quality epoch:1
+
+best quality result:0.8307528735814329, plcc0.8808609430717594, srcc:0.7806448040911065
+
+live:val: srcc:0.7962  plcc0.8837
+
+**********New quality best!**********
+
+...............current quality best, session:8...............
+best quality epoch:2
+
+best quality result:0.8399601136025161, plcc0.8837246058429996, srcc:0.7961956213620326
+
+live:val: srcc:0.8034  plcc0.8853
+
+**********New quality best!**********
+
+...............current quality best, session:8...............
+best quality epoch:3
+
+best quality result:0.8443279685216452, plcc0.8852656667105783, srcc:0.8033902703327119
+
+live:val: srcc:0.8064  plcc0.8807
+
+...............current quality best, session:8...............
+best quality epoch:3
+
+best quality result:0.8443279685216452, plcc0.8852656667105783, srcc:0.8033902703327119
+
+live:val: srcc:0.8112  plcc0.8852
+
+**********New quality best!**********
+
+...............current quality best, session:8...............
+best quality epoch:5
+
+best quality result:0.8482123284656067, plcc0.8852018215982523, srcc:0.8112228353329609
+
+live:val: srcc:0.8067  plcc0.8837
+
+...............current quality best, session:8...............
+best quality epoch:5
+
+best quality result:0.8482123284656067, plcc0.8852018215982523, srcc:0.8112228353329609
+
+live:val: srcc:0.8094  plcc0.8822
+
+...............current quality best, session:8...............
+best quality epoch:5
+
+best quality result:0.8482123284656067, plcc0.8852018215982523, srcc:0.8112228353329609
+
+live:val: srcc:0.8220  plcc0.8918
+
+**********New quality best!**********
+
+...............current quality best, session:8...............
+best quality epoch:8
+
+best quality result:0.8569088380431527, plcc0.8918032199469421, srcc:0.8220144561393633
+
+live:val: srcc:0.8196  plcc0.8891
+
+...............current quality best, session:8...............
+best quality epoch:8
+
+best quality result:0.8569088380431527, plcc0.8918032199469421, srcc:0.8220144561393633
+
+live:val: srcc:0.7854  plcc0.8652
+
+**********New quality best!**********
+
+...............current quality best, session:9...............
+best quality epoch:0
+
+best quality result:0.825333190065982, plcc0.8652215807283804, srcc:0.7854447994035837
+
+live:val: srcc:0.7898  plcc0.8676
+
+**********New quality best!**********
+
+...............current quality best, session:9...............
+best quality epoch:1
+
+best quality result:0.8286830136983425, plcc0.867569423216453, srcc:0.7897966041802321
+
+live:val: srcc:0.7935  plcc0.8805
+
+**********New quality best!**********
+
+...............current quality best, session:9...............
+best quality epoch:2
+
+best quality result:0.8370164124627537, plcc0.8805366549980099, srcc:0.7934961699274976
+
+live:val: srcc:0.8019  plcc0.8788
+
+**********New quality best!**********
+
+...............current quality best, session:9...............
+best quality epoch:3
+
+best quality result:0.8403704384865107, plcc0.8787955477540641, srcc:0.8019453292189574
+
+live:val: srcc:0.8055  plcc0.8866
+
+**********New quality best!**********
+
+...............current quality best, session:9...............
+best quality epoch:4
+
+best quality result:0.84602035510727, plcc0.8865557554129004, srcc:0.8054849548016396
+
+live:val: srcc:0.8092  plcc0.8839
+
+**********New quality best!**********
+
+...............current quality best, session:9...............
+best quality epoch:5
+
+best quality result:0.8465549904468864, plcc0.8838759808909668, srcc:0.8092340000028061
+
+live:val: srcc:0.8130  plcc0.8836
+
+**********New quality best!**********
+
+...............current quality best, session:9...............
+best quality epoch:6
+
+best quality result:0.8483025061324765, plcc0.8836010250991322, srcc:0.8130039871658209
+
+live:val: srcc:0.8114  plcc0.8811
+
+...............current quality best, session:9...............
+best quality epoch:6
+
+best quality result:0.8483025061324765, plcc0.8836010250991322, srcc:0.8130039871658209
+
+live:val: srcc:0.8183  plcc0.8845
+
+**********New quality best!**********
+
+...............current quality best, session:9...............
+best quality epoch:8
+
+best quality result:0.8513834943584389, plcc0.8844653362488498, srcc:0.8183016524680278
+
+live:val: srcc:0.8154  plcc0.8878
+
+**********New quality best!**********
+
+...............current quality best, session:9...............
+best quality epoch:9
+
+best quality result:0.8516283270386373, plcc0.8878233450832487, srcc:0.815433308994026
+
+live:val: srcc:0.7764  plcc0.8661
+
+**********New quality best!**********
+
+...............current quality best, session:10...............
+best quality epoch:0
+
+best quality result:0.8212461712955976, plcc0.8661290846223495, srcc:0.7763632579688458
+
+live:val: srcc:0.7711  plcc0.8691
+
+...............current quality best, session:10...............
+best quality epoch:0
+
+best quality result:0.8212461712955976, plcc0.8661290846223495, srcc:0.7763632579688458
+
+live:val: srcc:0.7941  plcc0.8763
+
+**********New quality best!**********
+
+...............current quality best, session:10...............
+best quality epoch:2
+
+best quality result:0.8351683982289726, plcc0.8762815955074261, srcc:0.794055200950519
+
+live:val: srcc:0.7936  plcc0.8723
+
+...............current quality best, session:10...............
+best quality epoch:2
+
+best quality result:0.8351683982289726, plcc0.8762815955074261, srcc:0.794055200950519
+
+live:val: srcc:0.8127  plcc0.8915
+
+**********New quality best!**********
+
+...............current quality best, session:10...............
+best quality epoch:4
+
+best quality result:0.8521050443361118, plcc0.8915030324835956, srcc:0.812707056188628
+
+live:val: srcc:0.8245  plcc0.8945
+
+**********New quality best!**********
+
+...............current quality best, session:10...............
+best quality epoch:5
+
+best quality result:0.8595085594311866, plcc0.8944885422254549, srcc:0.8245285766369185
+
+live:val: srcc:0.8190  plcc0.8923
+
+...............current quality best, session:10...............
+best quality epoch:5
+
+best quality result:0.8595085594311866, plcc0.8944885422254549, srcc:0.8245285766369185
+
+live:val: srcc:0.8193  plcc0.8909
+
+...............current quality best, session:10...............
+best quality epoch:5
+
+best quality result:0.8595085594311866, plcc0.8944885422254549, srcc:0.8245285766369185
+
+live:val: srcc:0.8289  plcc0.8881
+
+...............current quality best, session:10...............
+best quality epoch:5
+
+best quality result:0.8595085594311866, plcc0.8944885422254549, srcc:0.8245285766369185
+
+live:val: srcc:0.8244  plcc0.8906
+
+...............current quality best, session:10...............
+best quality epoch:5
+
+best quality result:0.8595085594311866, plcc0.8944885422254549, srcc:0.8245285766369185
+
+all_finished,average plcc:0.8930291171260161, srcc:0.8223399300339874,

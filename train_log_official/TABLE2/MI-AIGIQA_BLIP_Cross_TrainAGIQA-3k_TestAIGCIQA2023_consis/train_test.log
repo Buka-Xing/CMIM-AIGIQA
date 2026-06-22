@@ -1,0 +1,83 @@
+------------------------------log------------------------------
+main_lr:1.000000e-05, mmilb_lr1e-05, num_epoch:10, train_patch:5, val_patch:1
+------------------------------log------------------------------
+main_lr:1.000000e-05, mmilb_lr1e-05, num_epoch:10, train_patch:5, val_patch:1
+live:val: srcc:0.6614  plcc0.6358
+
+**********New quality best!**********
+
+...............current quality best...............
+best quality epoch:0
+
+best quality result:0.6485666574598261, plcc0.6357543803654193, srcc:0.6613789345542329
+
+live:val: srcc:0.6767  plcc0.6645
+
+**********New quality best!**********
+
+...............current quality best...............
+best quality epoch:1
+
+best quality result:0.670581020227191, plcc0.6645093350126569, srcc:0.6766527054417252
+
+live:val: srcc:0.6689  plcc0.6646
+
+...............current quality best...............
+best quality epoch:1
+
+best quality result:0.670581020227191, plcc0.6645093350126569, srcc:0.6766527054417252
+
+live:val: srcc:0.6723  plcc0.6605
+
+...............current quality best...............
+best quality epoch:1
+
+best quality result:0.670581020227191, plcc0.6645093350126569, srcc:0.6766527054417252
+
+live:val: srcc:0.6784  plcc0.6744
+
+**********New quality best!**********
+
+...............current quality best...............
+best quality epoch:4
+
+best quality result:0.6764142789243005, plcc0.6744000809776787, srcc:0.6784284768709223
+
+live:val: srcc:0.6727  plcc0.6687
+
+...............current quality best...............
+best quality epoch:4
+
+best quality result:0.6764142789243005, plcc0.6744000809776787, srcc:0.6784284768709223
+
+live:val: srcc:0.6795  plcc0.6750
+
+**********New quality best!**********
+
+...............current quality best...............
+best quality epoch:6
+
+best quality result:0.6772382371967134, plcc0.6749882438660673, srcc:0.6794882305273595
+
+live:val: srcc:0.6763  plcc0.6746
+
+...............current quality best...............
+best quality epoch:6
+
+best quality result:0.6772382371967134, plcc0.6749882438660673, srcc:0.6794882305273595
+
+live:val: srcc:0.6734  plcc0.6702
+
+...............current quality best...............
+best quality epoch:6
+
+best quality result:0.6772382371967134, plcc0.6749882438660673, srcc:0.6794882305273595
+
+live:val: srcc:0.6771  plcc0.6731
+
+...............current quality best...............
+best quality epoch:6
+
+best quality result:0.6772382371967134, plcc0.6749882438660673, srcc:0.6794882305273595
+
+all_finished

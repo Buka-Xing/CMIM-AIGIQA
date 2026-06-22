@@ -6,7 +6,7 @@
 
 ## Overview
 
-**CMIM-AIGIQA** is an image quality assessment (IQA) framework for AI-generated images. It leverages the cycle mutual information maximization (CMIM) between visual and textual features to learn compact, information-rich representations for both the quality and the alignment prediction. The CMIM-AIGIQA is built on the pretrained [ImageReward](https://github.com/THUDM/ImageReward) BLIP backbone, and achieves superior alignment SRCC on AGIQA-3k, AIGCIQA2023, and PKU-AIGIQA-4k (text-to-image part) databases while maintaining competitive quality SRCC results. 
+**CMIM-AIGIQA** is an image quality assessment (IQA) framework for AI-generated images. It leverages the cycle mutual information maximization (CMIM) between visual and textual features to learn compact, information-rich representations for both the quality and the alignment (consistency) prediction. The CMIM-AIGIQA is built on the pretrained [ImageReward](https://github.com/THUDM/ImageReward) BLIP backbone, and achieves superior alignment SRCC on AGIQA-3k, AIGCIQA2023, and PKU-AIGIQA-4k (text-to-image part) databases while maintaining competitive quality SRCC results. 
 
 <p align="center">
   <img src="CMIM-AIGIQA_framework.png" width="85%" alt="CMIM-AIGIQA Framework">
@@ -138,12 +138,12 @@ Each run produces a `train_test.log` with per-fold SRCC / PLCC and the final 10-
 
 MI-AIGIQA uses a **two-stage training loop** at each fold:
 
-| Stage | Optimized Modules | Loss |
-|-------|-------------------|------|
-| **Stage 0** (MI warm-up) | MMILB only | $-\text{LLD}$ |
-| **Stage 1** (full network) | All parameters | $\mathcal{L}_{\text{MSE}} + \alpha \cdot \text{NCE} - \beta \cdot \text{LLD}$ |
+| Stage | Optimized Modules |
+|-------|-------------------|
+| **Stage 0** (MI warm-up) | MMILB only |
+| **Stage 1** (full network) | All parameters |
 
-where NCE is the CPC-based backward MI estimate, and LLD is the MMILB variational lower bound.
+Details of the training loss can be found in the paper.
 
 ---
 

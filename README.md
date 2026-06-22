@@ -6,7 +6,7 @@
 
 ## Overview
 
-**CMIM-AIGIQA** is an image quality assessment (IQA) framework for AI-generated images. It leverages the cycle mutual information maximization (CMIM) between visual and textual features to learn compact, information-rich representations for both the quality and the alignment prediction. The CMIM-AIGIQA is built on the pretrained [ImageReward](https://github.com/THUDM/ImageReward) BLIP backbone, and achieves superior alignment SRCC on AGIQA-3k, AIGCIQA2023, and PKU-AIGIQA (text-to-image part) databases while maintaining competitive quality SRCC results. 
+**CMIM-AIGIQA** is an image quality assessment (IQA) framework for AI-generated images. It leverages the cycle mutual information maximization (CMIM) between visual and textual features to learn compact, information-rich representations for both the quality and the alignment prediction. The CMIM-AIGIQA is built on the pretrained [ImageReward](https://github.com/THUDM/ImageReward) BLIP backbone, and achieves superior alignment SRCC on AGIQA-3k, AIGCIQA2023, and PKU-AIGIQA-4k (text-to-image part) databases while maintaining competitive quality SRCC results. 
 
 <p align="center">
   <img src="CMIM-AIGIQA_framework.png" width="85%" alt="CMIM-AIGIQA Framework">

@@ -1,0 +1,16 @@
+================ BLIP text-feature Gaussianity summary ================
+  CSV                       : ../Database/AGIQA-3k/prompts.csv
+  N (prompts)               : 2982
+  D (feature dim)           : 768
+  PCA explained var ratio   : PC1 = 6.451%,  PC2 = 4.491%
+  Cumulative (PC1+PC2)      : 10.941%
+  Filliben r threshold      : 0.99
+  Filliben r (mean / median): 0.9965 / 0.9970
+  Filliben r (min / max)    : 0.9584 / 0.9992
+  Dims passing normality    : 762 / 768  (99.22%)
+  Selected QQ dims          : max-var=123, min-var=308, rand=(104, 48)
+  Figures saved to          : ./Gaussian-visualization/output/blip_text_gaussian_check.pdf
+                              ./Gaussian-visualization/output/blip_text_gaussian_check.png
+-----------------------------------------------------------------------
+  Conclusion: features are broadly consistent with a Gaussian distribution.
+=======================================================================

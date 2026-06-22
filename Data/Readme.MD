@@ -15,4 +15,4 @@ Data/
     └── Image/          # All PKU-AIGIQA images
 ```
 
-> **Note:** Please download each dataset from the links above and arrange the images as shown.
+> **Note:** Please download each dataset above and arrange the images as shown.

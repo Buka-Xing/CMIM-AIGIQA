@@ -16,7 +16,7 @@
 
 | Module | File | Description |
 |--------|------|-------------|
-| **MMIM** | `model.py` | Main model with BLIP backbone |
+| **CMIM** | `model.py` | Main model with BLIP backbone |
 | **MMILB** | `modules/encoders.py` | Forward MIM with Gaussian assumption |
 | **CPC** | `modules/encoders.py` | Backward MIM via Noise Contrastive Estimation |
 | **ImageTextRegression** | `model.py` | Cross-attention fusion module and MLP quality predictor |

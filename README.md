@@ -66,7 +66,7 @@ Data/
 │   └── all/            # All AGIQA-3k images
 ├── AIGCIQA2023/
 │   └── Image/          # Subfolders as referenced in the CSV
-│       └── allimg/
+│   │   └── allimg/
 └── PKU-AIGIQA/
     └── Image/          # All PKU-AIGIQA images
 ```

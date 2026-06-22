@@ -153,7 +153,7 @@ Details of the training loss can be found in the paper.
 
 ---
 
-### TABLE 2 — Cross-Dataset Generalization
+### TABLE 2 — Cross-Dataset validation
 
 Edit the configuration block at the top of `CrossDataset-training1.py`:
 
@@ -171,7 +171,7 @@ beta          = 0.1
 Then run:
 
 ```bash
-python CrossDataset-training1.py
+python CrossDataset-training.py
 ```
 
 This trains on the **full** source dataset and evaluates on the **full** target dataset (no cross-validation). Checkpoints are saved to:

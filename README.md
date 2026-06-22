@@ -50,9 +50,9 @@ The following four AIGIQA benchmarks are supported:
 | Dataset | # Images | Annotation Types | Reference |
 |---------|----------|-----------------|-----------|
 | **AGIQA-1k** | 1,080 | quality | [Zhang et al., 2023](https://ieeexplore.ieee.org/abstract/document/10222021) |
-| **AGIQA-3k** | 2,982 | quality, consistency | [Li et al., 2023](https://ieeexplore.ieee.org/abstract/document/10262331) |
-| **AIGCIQA2023** | 2,400 | quality, authenticity, consistency | [Wang et al., 2023]([https://arxiv.org/abs/2307.00211](https://link.springer.com/chapter/10.1007/978-981-99-9119-8_5)) |
-| **PKU-AIGIQA** | 2,800 | quality, authenticity, consistency | [Yuan et al., 2025]([https://arxiv.org/abs/2307.01911](https://openaccess.thecvf.com/content/ICCV2025W/VQualA/html/Yuan_PKU-AIGIQA-4K_A_Perceptual_Quality_Assessment_Database_for_Both_Text-to-Image_and_ICCVW_2025_paper.html)) |
+| **AGIQA-3k** | 2,982 | quality, consistency | [Li et al., 2024](https://ieeexplore.ieee.org/abstract/document/10262331) |
+| **AIGCIQA2023** | 2,400 | quality, authenticity, consistency | [Wang et al., 2023](https://link.springer.com/chapter/10.1007/978-981-99-9119-8_5) |
+| **PKU-AIGIQA** | 2,800 | quality, authenticity, consistency | [Yuan et al., 2025]((https://openaccess.thecvf.com/content/ICCV2025W/VQualA/html/Yuan_PKU-AIGIQA-4K_A_Perceptual_Quality_Assessment_Database_for_Both_Text-to-Image_and_ICCVW_2025_paper.html) |
 
 ### Data Directory Structure
 

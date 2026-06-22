@@ -1,25 +1,24 @@
-# MI-AIGIQA: Mutual Information-Guided Multimodal AI-Generated Image Quality Assessment
+# CMIM-AIGIQA: the Cycle Mutual Information Maximization for AI-Generated Image Quality Assessment
 
-> **ECCV 2026** | [Paper](#) | [arXiv](#) | [Project Page](#)
+> **ECCV 2026** | [Paper](#) | [Supplementary](#)
 
----
+---------------
 
 ## Overview
 
-**MI-AIGIQA** is a multimodal image quality assessment (IQA) framework for AI-generated images. It leverages the mutual information (MI) between visual and textual features to learn compact, information-rich representations for quality prediction. Built on top of the pretrained [ImageReward](https://github.com/THUDM/ImageReward) (BLIP) backbone, it introduces a two-stage optimization strategy that jointly maximizes the MI between modalities and minimizes quality prediction error.
+**CMIM-AIGIQA** is an image quality assessment (IQA) framework for AI-generated images. It leverages the cycle mutual information maximization (CMIM) between visual and textual features to learn compact, information-rich representations for both the quality and the alignment prediction. The CMIM-AIGIQA is built on the pretrained [ImageReward](https://github.com/THUDM/ImageReward) BLIP backbone, and achieves superior alignment SRCC on AGIQA-3k, AIGCIQA2023, and PKU-AIGIQA (text-to-image part) databases while maintaining competitive quality SRCC results. 
 
 <p align="center">
-  <!-- Replace with your architecture figure -->
-  <img src="assets/framework.png" width="85%" alt="MI-AIGIQA Framework">
+  <img src="CMIM-AIGIQA_framework.png" width="85%" alt="CMIM-AIGIQA Framework">
 </p>
 
 ### Key Components
 
 | Module | File | Description |
 |--------|------|-------------|
-| **MMIM** | `model.py` | Main model: BLIP backbone + cross-attention fusion + quality regressor |
-| **MMILB** | `modules/encoders.py` | Forward MI lower bound estimator (Gaussian variational) |
-| **CPC** | `modules/encoders.py` | Backward MI estimator via Noise Contrastive Estimation |
+| **MMIM** | `model.py` | Main model with BLIP backbone |
+| **MMILB** | `modules/encoders.py` | Forward MIM with Gaussian assumption |
+| **CPC** | `modules/encoders.py` | Backward MIM via Noise Contrastive Estimation |
 | **ImageTextRegression** | `model.py` | Cross-attention fusion module and MLP quality predictor |
 
 ---
@@ -50,10 +49,10 @@ The following four AIGIQA benchmarks are supported:
 
 | Dataset | # Images | Annotation Types | Reference |
 |---------|----------|-----------------|-----------|
-| **AGIQA-1k** | 1,080 | quality | [Li et al., 2023](https://arxiv.org/abs/2306.04990) |
-| **AGIQA-3k** | 2,982 | quality, consistency | [Li et al., 2023](https://arxiv.org/abs/2306.04990) |
-| **AIGCIQA2023** | 2,400 | quality, authenticity, consistency | [Wang et al., 2023](https://arxiv.org/abs/2307.00211) |
-| **PKU-AIGIQA** | 2,800 | quality, authenticity, consistency | [Yuan et al., 2023](https://arxiv.org/abs/2307.01911) |
+| **AGIQA-1k** | 1,080 | quality | [Zhang et al., 2023](https://ieeexplore.ieee.org/abstract/document/10222021) |
+| **AGIQA-3k** | 2,982 | quality, consistency | [Li et al., 2023](https://ieeexplore.ieee.org/abstract/document/10262331) |
+| **AIGCIQA2023** | 2,400 | quality, authenticity, consistency | [Wang et al., 2023]([https://arxiv.org/abs/2307.00211](https://link.springer.com/chapter/10.1007/978-981-99-9119-8_5)) |
+| **PKU-AIGIQA** | 2,800 | quality, authenticity, consistency | [Yuan et al., 2025]([https://arxiv.org/abs/2307.01911](https://openaccess.thecvf.com/content/ICCV2025W/VQualA/html/Yuan_PKU-AIGIQA-4K_A_Perceptual_Quality_Assessment_Database_for_Both_Text-to-Image_and_ICCVW_2025_paper.html)) |
 
 ### Data Directory Structure
 

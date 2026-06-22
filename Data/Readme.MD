@@ -15,4 +15,4 @@ Data/
     └── Image/          # All PKU-AIGIQA images
 ```
 
-> **Note:** Please download each dataset above and arrange the images as shown.
+> **Note:** Please download each dataset above and arrange the images as shown. You can also custumize your own dataset for training and testing.

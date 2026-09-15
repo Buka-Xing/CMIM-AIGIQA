@@ -2,7 +2,7 @@
 
 The official code reporsority for CMIM-AIGIQA: the Cycle Mutual Information Maximization for AI-Generated Image Quality Assessment, which is accepted by ECCV 2026.
 
-> **ECCV 2026** | [Paper]([#](https://link.springer.com/chapter/10.1007/978-3-032-37490-5_33#Sec17))
+> **ECCV 2026** | [Paper]((https://link.springer.com/chapter/10.1007/978-3-032-37490-5_33#Sec17))
 ---------------
 
 ## Update logs:

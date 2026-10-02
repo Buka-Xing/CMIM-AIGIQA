@@ -307,7 +307,7 @@ If you find this work useful, please cite:
 @inproceedings{CMIM-AIGIQA,
   title     = {Enhancing prompt-image alignment evaluations via cyclic mutual information maximization},
   author    = {Xingran Liao, Duanyu Feng, Mingliang Zhou, Sam Kwong, Weisi Lin.},
-  booktitle = {European Conference on Computer Vision 2026 (ECCV)},
+  booktitle = {The Fortieth Annual Conference on Neural Information Processing Systems 2026 (NeurIPS)},
   year      = {2026}
 }
 ```
